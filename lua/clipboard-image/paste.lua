@@ -1,7 +1,7 @@
 local M = {}
 local conf_utils = require "clipboard-image.config"
 local utils = require "clipboard-image.utils"
-# local check_dependency = require("clipboard-image.health").check_current_dep
+
 local cmd_check, cmd_paste = utils.get_clip_command()
 
 local paste_img_to = function(path)
